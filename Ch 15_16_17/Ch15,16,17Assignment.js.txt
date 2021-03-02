@@ -1,0 +1,28 @@
+  var course1 = prompt("enter the name of course1","computer");
+  var course2 = prompt("enter the name of course2","physics");
+  var course3 = prompt("enter the name of course3","chemistry");
+  var course4 = prompt("enter the name of course4","math");
+  var course5 = prompt("enter the name of course5","english");
+  var courses = [];
+  courses.push(course1);
+  courses.push(course2);
+  courses.push(course3);
+  courses.push(course4);
+  courses.push(course5);
+  alert(courses);
+  var course1 = prompt("enter the index of course1","computer");
+  courses.splice(2,1,"biology");
+  alert(courses);
+  var course2 = prompt("enter the index of course2","physics");
+  courses.splice(1,1,"urdu");
+  alert(courses);
+  var course3 = prompt("enter the index of course3","chemistry");
+  courses.splice(4,1,"economics");
+  alert(courses);
+  var course4 = prompt("enter the index of course4","math");
+  courses.splice(3,1,"pakstudies");
+  alert(courses);
+  var course5 = prompt("enter the index of course5","english");
+  courses.splice(0,1,"generalknowledge");
+  alert(courses);
+  
