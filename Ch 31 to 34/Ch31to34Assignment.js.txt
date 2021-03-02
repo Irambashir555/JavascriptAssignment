@@ -1,0 +1,9 @@
+var _name = prompt("enter your name");
+var date = parseInt(prompt("enter your date of your birth "));
+var month = parseInt(prompt("enter your month of birth "));
+var year = parseInt(prompt("enter your year of birth "));
+console.log("Hello "+" "+_name+" " +"GoodMorning, " + "Afternoon, "+"Evening or Night");
+var dateOfBirth = _name+" "+date+month+year;
+console.log(dateOfBirth);
+var exactDateOfBirth = new Date(24/5/1999);
+console.log(exactDateOfBirth);
