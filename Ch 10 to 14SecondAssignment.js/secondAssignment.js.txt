@@ -1,0 +1,9 @@
+var course1 = prompt("enter the marks of course1");
+var course2 = prompt("enter the marks of course2");
+var course3 = prompt("enter the marks of course3");
+var course4 = prompt("enter the marks of course4");
+var course5 = prompt("enter the marks of course5");
+var marksObtained = parseInt(course1)+parseInt(course2)+parseInt(course3)+parseInt(course4)+parseInt(course5);
+var totalMarks = 500;
+var percentage = marksObtained*100/totalMarks;
+alert(percentage+"%");
