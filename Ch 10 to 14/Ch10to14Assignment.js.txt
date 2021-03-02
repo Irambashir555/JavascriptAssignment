@@ -1,0 +1,26 @@
+var num1 = prompt("enter first value");
+var num2 = prompt("enter second value");
+var sign = prompt("enter sign of your choice for calculation"); 
+var sum = parseInt(num1)+parseInt(num2);
+var min = parseInt(num1)-parseInt(num2);
+var mul = parseInt(num1)*parseInt(num2);
+var div = parseInt(num1)/ parseInt(num2);
+var mod = parseInt(num1)%parseInt(num2);
+
+   if (sign==="+"){  
+    alert("Add = " + sum);
+   }
+   else if(sign==="-"){
+
+    alert("Sub = "+ min);
+   }
+   else if(sign==="*"){
+
+    alert("Mul = "+ mul);
+   }
+   else if(sign==="/"){
+ alert("Div = "+ div);
+   }
+   else if(sign==="%"){
+    alert("modulus = "+ mod);
+   }
