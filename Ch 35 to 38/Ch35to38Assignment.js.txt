@@ -1,0 +1,10 @@
+function factorial() {
+var i,fact;
+fact = 1;
+var number = prompt("enter number to find factorial");
+for( i=1; i<=number; i++){
+  fact = fact*i;
+}
+console.log(fact);
+}
+factorial();
