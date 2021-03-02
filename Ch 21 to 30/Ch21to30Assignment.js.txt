@@ -1,0 +1,15 @@
+ var a =prompt("enter a number with decimal");
+ var b = Math.ceil(a);
+ alert(b);
+ var text = "This is my dummy text";
+ var c = text.slice(0,4);
+ alert(c);
+ var strArr = c.split("");
+ console.log(strArr[0]);
+ console.log(strArr[1]);
+ console.log(strArr[2]);
+ console.log(strArr[3]);
+ for(var i in strArr ) {
+ alert(strArr.reverse(i));
+ } 
+  
